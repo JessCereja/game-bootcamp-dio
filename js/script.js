@@ -31,6 +31,7 @@ var TECLA = {
     S: 83,
     D:68
 }
+//Fim das declarações de variáveis
 
 jogo.pressionou = [];
 
@@ -39,8 +40,6 @@ var podeAtirar = true;
 //Música em loop
 musica.addEventListener("ended", function(){ musica.currentTime = 0; musica.play(); }, false);
 musica.play();
-
-//Fim das declarações de variáveis
 
 //Verifica se o usuário pressionou alguma tecla
 $(document).keydown(function(e){
